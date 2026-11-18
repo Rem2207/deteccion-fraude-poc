@@ -1,0 +1,19 @@
+{
+  "threshold": 0.21,
+  "accuracy": 0.9996123074754167,
+  "precision": 0.9333333333333333,
+  "recall": 0.7567567567567568,
+  "f1": 0.835820895522388,
+  "average_precision": 0.8115581035466745,
+  "tn": 56668,
+  "fp": 4,
+  "fn": 18,
+  "tp": 56,
+  "n_samples": 56746,
+  "n_fraud": 74,
+  "model": "random_forest",
+  "train_rows": 226980,
+  "test_rows": 56746,
+  "train_max_time": 145233.0,
+  "test_min_time": 145234.0
+}

@@ -1,0 +1,39 @@
+# Datos: nunca versionar el dataset original ni derivados voluminosos
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Modelos binarios generados localmente
+models/*.joblib
+models/*.pkl
+!models/.gitkeep
+
+# Secretos
+.env
+.env.*
+!.env.example
+kaggle.json
+**/.kaggle/
+
+# Python/Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# IDE y sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+*.log

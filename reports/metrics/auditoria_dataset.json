@@ -1,0 +1,9 @@
+{
+  "rows_original": 284807,
+  "fraud_original": 492,
+  "missing_values": 0,
+  "duplicate_rows": 1081,
+  "duplicate_fraud": 19,
+  "rows_clean": 283726,
+  "fraud_clean": 473
+}

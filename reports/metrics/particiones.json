@@ -1,0 +1,14 @@
+{
+  "train": {
+    "rows": 170235,
+    "fraud": 284
+  },
+  "validation": {
+    "rows": 56745,
+    "fraud": 94
+  },
+  "test": {
+    "rows": 56746,
+    "fraud": 95
+  }
+}
